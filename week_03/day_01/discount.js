@@ -1,12 +1,10 @@
 function program(input) {
-    // input
-    // console.log(input)
-    // write code here
-
-
-    // return output
-    return 'output'
+  input = 1000;
+  var total;
+  if (input > 300) {
+    discount = total - total * 0.1;
+  }
+  console.log(typeof input);
 }
 
-
-module.exports = program
+module.exports = program;
